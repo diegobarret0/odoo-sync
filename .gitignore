@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment variable files
+.env
+.env.*
+
+# pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# mypy, pyright, pylint, etc.
+.mypy_cache/
+.pyright/
+.pytest_cache/
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# pytest
+.testmondata
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SQLite database
+*.sqlite3
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# Gunicorn
+gunicorn.log
+
